@@ -55,7 +55,7 @@ const Detail = styled(motion.p)`
   width: 100%;
   max-width: 700px;
   font-size: clamp(1rem, 4vw, 1.3525rem);
-  font-weight: 100;
+  font-weight: 400;
   line-height: clamp(1rem, 4.5vw, 1.55rem);
 `;
 const DetailBlock = styled(motion.div)`
@@ -166,7 +166,7 @@ export default function Projects({ projects }) {
     },
     {
       name: "Resume",
-      href: "/Rory_Bourdon_Resume_2021.pdf",
+      href: "/pratham_saraf_resume.pdf",
       color: theme.orange,
       onClick: null,
     },

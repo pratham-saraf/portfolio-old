@@ -107,7 +107,7 @@ const Detail = styled(motion.div)`
   padding: 0 0 10vh 0;
   max-width: 610px;
   font-size: clamp(1rem, 4vw, 1.3525rem);
-  font-weight: 100;
+  font-weight: 400;
   line-height: clamp(1rem, 4.5vw, 1.55rem);
   grid-column: 1;
   z-index: 1;
@@ -199,7 +199,7 @@ export default function Skills({ skills }) {
     },
     {
       name: "Resume",
-      href: "/Rory_Bourdon_Resume_2021.pdf",
+      href: "/pratham_saraf_resume.pdf",
       color: theme.teal,
       onClick: null,
     },
@@ -244,7 +244,7 @@ export default function Skills({ skills }) {
             {`These are some of the skills I’ve picked up over the years through
               a combination of formal education, self-directed learning and most
               importantly, `}
-            <Highlight color={theme.teal}>building things</Highlight>
+            <Highlight color={theme.blue}>building things</Highlight>
             {`. I hope this list never stops growing.`}
           </Detail>
           <SkillsColumn>

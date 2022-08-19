@@ -20,6 +20,7 @@ const LinkContainer = styled(motion.a)`
   column-gap: 8px;
   padding: 10px 20px;
   font-size: 1.08rem;
+  font-weight: 500;
   line-height: 1.25;
   position: relative;
   index: 3;
@@ -37,6 +38,7 @@ const Container = styled(motion.div)`
   grid-template-rows: 1fr;
   column-gap: 8px;
   padding: 10px 20px;
+  font-weight: 600;
   font-size: 1.08rem;
   line-height: 1.25;
   position: relative;

@@ -4,11 +4,11 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async function Contact(req, res) {
   const { message } = req.body;
-
+  console.log(req.body);
   const msg = {
-    to: "rorybourdon@gmail.com",
-    from: "contact@rorybourdon.com",
-    template_id: "d-e62d0066c4a7406e86cc0fc0f5e28ccb",
+    to: "prathammsaraf@gmail.com",
+    from: "pratham4641ssr@gmail.com",
+    template_id: " d-0a5aedc605d34f50afcea92008e15876",
     dynamic_template_data: {
       body: message,
     },

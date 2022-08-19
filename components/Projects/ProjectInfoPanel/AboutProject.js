@@ -14,12 +14,13 @@ const Container = styled(motion.div)`
 
 const Label = styled(motion.p)`
   font-size: clamp(0.85rem, 0.7vw, 1.3rem);
+  font-weight: 500;
   line-height: clamp(0.85rem, 0.7vw, 1.3rem);
 `;
 
 const Text = styled(motion.p)`
   font-size: clamp(0.9rem, 0.9vw, 1.3525rem);
-  font-weight: 100;
+  font-weight: 300;
   line-height: clamp(1rem, 1.2vw, 1.55rem);
 `;
 
@@ -42,7 +43,7 @@ export default function AboutProject({ description = "" }) {
       onFocus={handleHoverStart}
       onBlur={handleHoverEnd}
     >
-      <Label style={{ color: theme.primary_mediumdark }}>
+      <Label style={{ color: theme.primary_verydark }}>
         About the Project
       </Label>
       <Text style={{ color: theme.primary_dark }}>{description}</Text>

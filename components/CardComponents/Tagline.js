@@ -6,8 +6,8 @@ const Text = styled(motion.p)`
   height: max-content;
   max-width: 80%;
   text-align: center;
-  font-weight: 300;
-  font-size: 1.125rem;
+  font-weight: 600;
+  font-size: 1.25rem;
   padding: ${(props) => props.$padding};
   user-select: none;
 `;

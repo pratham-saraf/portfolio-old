@@ -97,6 +97,7 @@ const ProjectsBlock = styled(motion.div)`
 const ScrollerTitle = styled(motion.p)`
   width: 100%;
   padding-bottom: 3vh;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +202,7 @@ export default function Skill({ skill }) {
     },
     {
       name: "Resume",
-      href: "/Rory_Bourdon_Resume_2021.pdf",
+      href: "/pratham_saraf_resume.pdf",
       color: secondaryColor,
       onClick: null,
     },

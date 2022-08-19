@@ -86,11 +86,9 @@ export default function NavBar({ children, links = [] }) {
 
   return (
     <Container>
-      <Link href="/" passHref>
-        <LogoContainer>
+       <LogoContainer>
           <Logo />
         </LogoContainer>
-      </Link>
       <NavBox
         initial="hidden"
         animate="visible"

@@ -154,6 +154,36 @@ export default function ContactForm() {
     <Form onSubmit={handleSubmit}>
       <Input
         type="text"
+        name="name"
+        variants={inputV}
+        placeholder="Your name"
+        style={{
+          borderRadius: "20px",
+          border,
+          backgroundColor: theme.primary_verylight,
+          color: theme.primary_verydark,
+        }}
+        onFocus={handleHoverStart}
+        onBlur={handleHoverEnd}
+        required
+      />
+      <Input
+        type="text"
+        name="email id"
+        variants={inputV}
+        placeholder="your email address &#9993;"
+        style={{
+          borderRadius: "20px",
+          border,
+          backgroundColor: theme.primary_verylight,
+          color: theme.primary_verydark,
+        }}
+        onFocus={handleHoverStart}
+        onBlur={handleHoverEnd}
+        required
+      />
+      <Input
+        type="text"
         name="message"
         variants={inputV}
         placeholder="Send me a message &#10084;"
@@ -165,8 +195,10 @@ export default function ContactForm() {
         }}
         onFocus={handleHoverStart}
         onBlur={handleHoverEnd}
+        required
       />
-
+      <br></br>
+      <br></br>
       <Button
         width={190}
         height={50}

@@ -54,7 +54,7 @@ const Detail = styled(motion.div)`
   padding: 0 0 10vh 0;
   max-width: 710px;
   font-size: clamp(1rem, 4vw, 1.3525rem);
-  font-weight: 100;
+  font-weight: 400;
   line-height: clamp(1rem, 4.5vw, 1.55rem);
   grid-column: 1;
   z-index: 1;

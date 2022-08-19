@@ -12,6 +12,8 @@ import TwitterIcon from "./Icons/TwitterIcon";
 import LinkedInIcon from "./Icons/LinkedInIcon";
 import GithubIcon from "./Icons/GithubIcon";
 import InstagramIcon from "./Icons/InstagramIcon";
+import KaggleIcon from "./Icons/KaggleIcon";
+import MediumIcon from "./Icons/MediumIcon";
 
 const Container = styled(motion.a)`
   height: 100%;
@@ -82,6 +84,8 @@ export default function SocialLink({ href = "/", platform, hoverColor }) {
             github: <GithubIcon />,
             instagram: <InstagramIcon />,
             linkedin: <LinkedInIcon />,
+            kaggle: <KaggleIcon />,
+            medium: <MediumIcon />,
           }[platform]
         }
       </Container>

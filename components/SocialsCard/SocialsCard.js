@@ -286,7 +286,7 @@ export default function SocialsCard({ sectionHeight = 1400, children }) {
                 gridTemplateColumns: portrait ? "100%" : "43% 54%",
                 gridTemplateRows: portrait ? "43% 1fr" : "100%",
                 rowGap: portrait ? "3%" : "0%",
-                columnGap: portrait ? "0%" : "3%",
+                columnGap: portrait ? "0%" : "0.5%",
               }}
               variants={socialsCardV}
             >
@@ -323,6 +323,16 @@ export default function SocialsCard({ sectionHeight = 1400, children }) {
                     platform="github"
                     hoverColor={theme.green}
                     href="https://github.com/pratham-saraf"
+                  />
+                  <SocialLink
+                    platform="kaggle"
+                    hoverColor={theme.green}
+                    href="https://www.kaggle.com/prathamsaraf1389"
+                  />
+                  <SocialLink
+                    platform="medium"
+                    hoverColor={theme.green}
+                    href="https://medium.com/@pratham-saraf"
                   />
                 </SocialsBox>
                 <Button

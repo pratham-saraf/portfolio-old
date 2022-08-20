@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import { createGlobalStyle } from "styled-components";
-import { ThemeControlProvider,useThemeMode } from "@/lib/Context/ThemeContext";
+import { ThemeControlProvider } from "@/lib/Context/ThemeContext";
 // import {toggleMode} from "@/lib/Context/ThemeContext";
 import Layout from "@/components/layout";
 
@@ -107,13 +107,7 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <>
-
-    <ThemeControlProvider>
-    {/* <button
-      onClick={() => themeUpdate.toggleMode()}
-    >
-      change
-    </button> */}
+      <ThemeControlProvider>
         <GlobalStyle />
         <Layout>
           <AnimatePresence

@@ -7,7 +7,6 @@ import NavBar from "@/components/Nav/NavBar";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 import dynamic from "next/dynamic";
-import { useThemeMode } from "@/lib/Context/ThemeContext";
 
 const SkillsCard = dynamic(() =>
   import("@/components/Skills/SkillsCard/SkillsCard")

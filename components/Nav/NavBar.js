@@ -1,7 +1,6 @@
 import styled, { ThemeContext } from "styled-components";
 import { motion } from "framer-motion";
 import Logo from "@/components/Nav/Logo";
-import Link from "next/link";
 import NavLink from "./NavLink";
 import { useContext, useState } from "react";
 import HamburgerMenu from "./HamburgerMenu";
@@ -86,9 +85,9 @@ export default function NavBar({ children, links = [] }) {
 
   return (
     <Container>
-       <LogoContainer>
-          <Logo />
-        </LogoContainer>
+      <LogoContainer>
+        <Logo />
+      </LogoContainer>
       <NavBox
         initial="hidden"
         animate="visible"

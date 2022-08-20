@@ -43,9 +43,7 @@ export default function AboutProject({ description = "" }) {
       onFocus={handleHoverStart}
       onBlur={handleHoverEnd}
     >
-      <Label style={{ color: theme.primary_verydark }}>
-        About the Project
-      </Label>
+      <Label style={{ color: theme.primary_verydark }}>About the Project</Label>
       <Text style={{ color: theme.primary_dark }}>{description}</Text>
     </Container>
   );
